@@ -1,0 +1,79 @@
+[global_config]
+  extra_styling = False
+  tab_position = bottom
+  scroll_tabbar = True
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+[keybindings]
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+  switch_to_tab_10 = <Alt>0
+[profiles]
+  [[default]]
+    background_color = "#241F33"
+    cursor_bg_color = "#D1CAE8"
+    font = Mononoki Nerd Font Mono 13
+    foreground_color = "#D1CAE8"
+    palette = "#2f2942:#ff857f:#48b685:#e6c000:#ae81ff:#ef6155:#c2ffdf:#f8f8f2:#75507b:#f1568e:#5adba2:#d5a425:#c5a3ff:#ef6155:#c2ffff:#f8f8f0"
+    use_system_font = False
+    copy_on_selection = True
+    title_transmit_fg_color = "#000000"
+    title_transmit_bg_color = "#ae81ff"
+    title_receive_fg_color = "#000000"
+    title_receive_bg_color = "#48b685"
+    title_inactive_bg_color = "#c5a3ff"
+    title_use_system_font = False
+    title_font = ProggyCleanSZ Nerd Font Mono Italic 12
+  [[default-backup]]
+    font = Source Code Pro Medium 10
+    use_system_font = False
+  [[Aci]]
+    background_color = "#0d1926"
+    cursor_bg_color = "#c4e9ff"
+    font = Inconsolata Nerd Font Mono 16
+    foreground_color = "#b4e1fd"
+    palette = "#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#ffffff:#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+  [[ayu]]
+    background_color = "#0f1419"
+    cursor_bg_color = "#f29718"
+    font = Inconsolata Nerd Font Mono 16
+    foreground_color = "#e6e1cf"
+    palette = "#000000:#ff3333:#b8cc52:#e7c547:#36a3d9:#f07178:#95e6cb:#ffffff:#323232:#ff6565:#eafe84:#fff779:#68d5ff:#ffa3aa:#c7fffd:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+  [[BlueBerryPie]]
+    background_color = "#1c0c28"
+    cursor_bg_color = "#fcfad6"
+    font = Inconsolata Nerd Font Mono 16
+    foreground_color = "#babab9"
+    palette = "#0a4c62:#99246e:#5cb1b3:#eab9a8:#90a5bd:#9d54a7:#7e83cc:#f0e8d6:#201637:#c87272:#0a6c7e:#7a3188:#39173d:#bc94b7:#5e6071:#0a6c7e"
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 292:150
+      maximised = False
+      fullscreen = False
+      size = 1326, 732
+      title = l5@fedora:~
+      last_active_term = f9121130-eb9b-44a9-a06f-8ad0f3c26a50
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = f9121130-eb9b-44a9-a06f-8ad0f3c26a50
+[plugins]
